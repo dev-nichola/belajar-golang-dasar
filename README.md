@@ -72,3 +72,21 @@ var (
 	fmt.Println(hobby)
 	fmt.Println(gf)
 ```
+
+Di golang kalau variable tidak digunakan otomatis error
+
+# Constant
+- variable yang nilainya tidak bisa di ubah
+- wajib di inisasi datanya ketika di buat
+- constant tidak di panggil tidak apa apa beda dengan variable
+
+## Deklarasi Multiple Constant
+```
+const (
+		price = 120000
+		value = 10000
+	)
+
+	fmt.Println(price)
+	fmt.Println(value)
+```
