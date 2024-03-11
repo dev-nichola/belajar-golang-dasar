@@ -131,3 +131,18 @@ deklarasinya seperti ini
 type NoKTP string
 ```
 
+# Operasi Matematika
+- Penjumlahan, Pengurangan, Perkalian, Pembagian, Sisa Bagi Atau Modulus
+- Augmented assignment Atau operasi penugasan
+- Unary operator
+
+# Operasi Perbandingan
+untuk membandingan dua buah data, hasil nya adalah boolean true atau false
+- lebih dari
+- kurang dari
+- sama dengan 
+- dan lain lain
+
+
+
+
