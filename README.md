@@ -9,7 +9,7 @@ Cari file executablenya sesuai modulenya biasanya
 ./belajar-golang dasar
 ```
 
-## Menjalankan Tanpa Kompilasi
+## Menjalankan Tanpa Compile
 ```
 go run helloworld.go
 ```
