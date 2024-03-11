@@ -19,3 +19,7 @@ function main di go itu unique, jadi di setiap file tidak boleh ada function yan
 # Tipe Data Number
 - INT = Bilangan Bulat
 - FLOAT = Bilangan Desimal
+
+# Tipe Data Boolean
+- Benar = True
+- Salah = False
