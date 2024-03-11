@@ -138,10 +138,15 @@ type NoKTP string
 
 # Operasi Perbandingan
 untuk membandingan dua buah data, hasil nya adalah boolean true atau false
-- lebih dari
-- kurang dari
-- sama dengan 
+- > lebih dari
+- < kurang dari
+- == sama dengan 
 - dan lain lain
+
+# Operasi Boolean
+- && AND
+- || ATAU
+- ! Kebalikan
 
 
 
