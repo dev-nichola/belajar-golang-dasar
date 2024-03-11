@@ -3,5 +3,9 @@ package main
 import "fmt" // Kepanjangan dari format
 
 func main() {
-	fmt.Println("Hello Wolrd!")
+	hello()
+}
+
+func hello() {
+	fmt.Println("Hello World")
 }
