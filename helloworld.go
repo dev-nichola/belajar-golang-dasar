@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "fmt" // Kepanjangan dari format
 
 func main() {
-	fmt.Println("Hello World")
+	fmt.Println("Hello Wolrd!")
 }
