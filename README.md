@@ -148,6 +148,19 @@ untuk membandingan dua buah data, hasil nya adalah boolean true atau false
 - || ATAU
 - ! Kebalikan
 
+# Tipe Data Array
+- array adalah tipe data yang kumpulan dengan tipe data yang sama
+- urutan data di array di sebut index dan di buat dari 0
+- ada 2 cara membuatnya yaitu membuat dulu variablenya dan yang kedua membuat array secara langsung
+- di golang itu tidak ada operasi menghapus index di array
+- jika kita tidak ingin menentukan jumlahnya secara pasti kita bisa menggunakan ```...``` saat deklarasi array nya
+
+## Function Array
+- len(array) = mendapatkan panjang array
+- array[index] = mendapatkan data di posisi index
+- array[index] = mengubah data di posisi index
+
+
 
 
 
