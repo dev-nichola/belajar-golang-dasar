@@ -202,3 +202,10 @@ sama seperti array ada function yang bisa digunakan
 - map adalah tipe data kumpulan key-value, yang keynya harus unique
 - map tidak ada batasnya, tidak seperti array dan slice
 - deklarasinya ```map[tipeDataKeynya]tipeDatanya```
+
+## Function Map
+- len(map) = mendapatkan jumlah data
+- map[key] = mengambil data
+- map[key] = value - mengubah data di map
+- make(map[typeKey]TypeValue) = membuat map baru
+- delete(map, key) = menghapus map
