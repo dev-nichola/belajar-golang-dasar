@@ -281,3 +281,8 @@ Atau Kalau Tidak Butuh Indexnya
 - break = menghentikan seluruh perulangan
 - continue = menghentikan perulangan dan melanjutkan ke perulangan selanjutnya
 
+# Function 
+adalah blok atau baris kode yang dapat digunakan secara berulang ulang
+- pembuatanya menggunakan kata kunci func di ikuti nama functionya dan tanda buka plus tanda kurung
+
+
