@@ -198,12 +198,15 @@ sama seperti array ada function yang bisa digunakan
 	fmt.Println(iniArray)
 	fmt.Println(iniSlice)
 ```
+
 # Tipe Data Map
+
 - map adalah tipe data kumpulan key-value, yang keynya harus unique
 - map tidak ada batasnya, tidak seperti array dan slice
-- deklarasinya ```map[tipeDataKeynya]tipeDatanya```
+- deklarasinya `map[tipeDataKeynya]tipeDatanya`
 
 ## Function Map
+
 - len(map) = mendapatkan jumlah data
 - map[key] = mengambil data
 - map[key] = value - mengubah data di map
@@ -211,18 +214,66 @@ sama seperti array ada function yang bisa digunakan
 - delete(map, key) = menghapus map
 
 # Percabangan If Else
+
 - blok if akan di eksekusi ketika nilainya true
 - else digunakan jika kondisinya false
 - else if untuk menambhakan kondisi lainya
 
 ## If dengan short statement
+
 if mendukung pembuatan statement sederhanan sebelum melakukan pengecekan
 
 # Switch Statement
+
 switch statemen merupakan bentuk sederahana dari if, biasanya digunakan untuk pengecekan ke kondisi dalam satu variable
 
 ## Switch Tanpa Kondisi
+
 switch tidak wajib menggunakan kondisi, kita bisa menambahkan kondisi tersebut di setiap casenya
 
 # For Loops / Perulangan
 
+```
+func main() {
+
+	counter := 1
+
+	for counter <= 10 {
+		fmt.Println("Perulangan Ke = ", counter)
+		counter++
+	}
+
+	fmt.Println("Selesai")
+}
+```
+
+Atau
+
+```
+func main() {
+
+	for counter := 1; counter <= 10; counter++ {
+		fmt.Println("Perulangan Ke = ", counter)
+	}
+
+	fmt.Println("Selesai")
+
+}
+```
+
+## For Range
+
+- For bisa digunakan untuk mengiterasi semua data yang ada di collection
+- data collection itu contohnya, array, slice, dan map
+
+```
+	for index, name := range names {
+		fmt.Println("INDEX = ", index, "NAME = ", name)
+	}
+```
+Atau Kalau Tidak Butuh Indexnya
+```
+	for _, name := range names {
+		fmt.Println("NAME = ", name)
+	}
+```
