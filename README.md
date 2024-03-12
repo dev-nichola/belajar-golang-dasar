@@ -9,7 +9,6 @@
 
 ```
 go build
-
 ```
 
 Cari file executablenya sesuai modulenya biasanya
@@ -124,43 +123,78 @@ mengkonversi tipe data satu ke tipe data lain
 	fmt.Println(nilai16)
 ```
 
-# Type Declaration 
+# Type Declaration
+
 Kemampuan membuat ulang tipe data baru dari tipe data yang sudah ada, biasanya digunakan membuat alias, tujuanya supaya mudah di mengerti.
 deklarasinya seperti ini
+
 ```
 type NoKTP string
 ```
 
 # Operasi Matematika
+
 - Penjumlahan, Pengurangan, Perkalian, Pembagian, Sisa Bagi Atau Modulus
 - Augmented assignment Atau operasi penugasan
 - Unary operator
 
 # Operasi Perbandingan
+
 untuk membandingan dua buah data, hasil nya adalah boolean true atau false
-- > lebih dari
-- < kurang dari
-- == sama dengan 
+
+- ">" lebih dari
+- "<" kurang dari
+- "==" sama dengan
 - dan lain lain
 
 # Operasi Boolean
+
 - && AND
 - || ATAU
 - ! Kebalikan
 
 # Tipe Data Array
+
 - array adalah tipe data yang kumpulan dengan tipe data yang sama
 - urutan data di array di sebut index dan di buat dari 0
 - ada 2 cara membuatnya yaitu membuat dulu variablenya dan yang kedua membuat array secara langsung
 - di golang itu tidak ada operasi menghapus index di array
-- jika kita tidak ingin menentukan jumlahnya secara pasti kita bisa menggunakan ```...``` saat deklarasi array nya
+- jika kita tidak ingin menentukan jumlahnya secara pasti kita bisa menggunakan `...` saat deklarasi array nya
 
 ## Function Array
+
 - len(array) = mendapatkan panjang array
 - array[index] = mendapatkan data di posisi index
 - array[index] = mengubah data di posisi index
 
+# Tipe Data Slice
 
+- adalah potongan dari data array
+- slice mirip array, yang membedakan ukuranya bisa berusah
 
+## Detail Tipe Data Slice
 
+- memiliki 3 data, pointer, length, dan capacity
+- pointer adalah petunjuk data pertama
+- lenght adalah panjang dari slice
+- capacity adalah kapasitas dari slice, dimana length tidak boleh keluar dari capacity
 
+## Function Slice
+
+sama seperti array ada function yang bisa digunakan
+
+- len(slice) = mendapatkan panjang slicenya!, ingat ya bukan panjang arraynya tapi panjang slicenya
+- cap(slice) = untuk mendapatkan kapasitas
+- append(slice, data) = menambahkan slice baru
+- make([]TypeData, length, capacity) = membuat slice baru
+- copy(destination, source) = menyalin slice
+
+## Hati Hati Saat Membuat Array Dan Slice
+
+```
+	iniArray := [...]string{"Nichola", "Saputra"}
+	iniSlice := []string{"Nichola Saputra"}
+
+	fmt.Println(iniArray)
+	fmt.Println(iniSlice)
+```
