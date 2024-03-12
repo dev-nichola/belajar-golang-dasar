@@ -292,5 +292,9 @@ Atau Kalau Tidak Butuh Indexnya
 - parameter wajib mengirim data kalau parameternya ada
 - nama parameter itu unique
 
+# Function Return 
+- function itu bisa mengembalikan data
+- dengan kata kunci return
+
 
 
