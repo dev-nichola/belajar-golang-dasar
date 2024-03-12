@@ -303,5 +303,13 @@ Atau Kalau Tidak Butuh Indexnya
 ## Menghiraukan Return Value
 - kadang kita tidak ingin menangkap semua value maka dari itu kita bisa gunakan ```_``` garis bawah
 
+# Named Return Value
+- membuat variable secara langsung di tipe data return functionya
+- artinya tidak usah membuat variablenya secara langsung di dalam functionya
+
+# Variadic Function 
+- parameter di function itu yang terakhir itu memiliki kemampuan variable argumen
+- atau datanya bisa memiliki satu input, atau anggap saja seperti array
+
 
 
