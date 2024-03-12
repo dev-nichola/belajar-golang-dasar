@@ -198,3 +198,7 @@ sama seperti array ada function yang bisa digunakan
 	fmt.Println(iniArray)
 	fmt.Println(iniSlice)
 ```
+# Tipe Data Map
+- map adalah tipe data kumpulan key-value, yang keynya harus unique
+- map tidak ada batasnya, tidak seperti array dan slice
+- deklarasinya ```map[tipeDataKeynya]tipeDatanya```
