@@ -272,8 +272,12 @@ func main() {
 	}
 ```
 Atau Kalau Tidak Butuh Indexnya
-```
-	for _, name := range names {
+```	for _, name := range names {
 		fmt.Println("NAME = ", name)
 	}
 ```
+
+# Break & Continue
+- break = menghentikan seluruh perulangan
+- continue = menghentikan perulangan dan melanjutkan ke perulangan selanjutnya
+
