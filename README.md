@@ -300,5 +300,8 @@ Atau Kalau Tidak Butuh Indexnya
 - function tidak hanya bisa mengembalikan satu nilai saja artinya bisa lebih banyak
 - untuk bisa melakukanya kita harus memberitahukan semua tipe data returnya
 
+## Menghiraukan Return Value
+- kadang kita tidak ingin menangkap semua value maka dari itu kita bisa gunakan ```_``` garis bawah
+
 
 
