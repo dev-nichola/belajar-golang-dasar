@@ -209,3 +209,14 @@ sama seperti array ada function yang bisa digunakan
 - map[key] = value - mengubah data di map
 - make(map[typeKey]TypeValue) = membuat map baru
 - delete(map, key) = menghapus map
+
+# Percabangan If Else
+- blok if akan di eksekusi ketika nilainya true
+- else digunakan jika kondisinya false
+- else if untuk menambhakan kondisi lainya
+
+## If dengan short statement
+if mendukung pembuatan statement sederahan sebeluman melakukan pengecekan
+
+
+
