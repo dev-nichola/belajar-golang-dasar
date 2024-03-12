@@ -296,5 +296,9 @@ Atau Kalau Tidak Butuh Indexnya
 - function itu bisa mengembalikan data
 - dengan kata kunci return
 
+# Returning Multiple Values
+- function tidak hanya bisa mengembalikan satu nilai saja artinya bisa lebih banyak
+- untuk bisa melakukanya kita harus memberitahukan semua tipe data returnya
+
 
 
