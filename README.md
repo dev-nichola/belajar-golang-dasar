@@ -282,7 +282,15 @@ Atau Kalau Tidak Butuh Indexnya
 - continue = menghentikan perulangan dan melanjutkan ke perulangan selanjutnya
 
 # Function 
-adalah blok atau baris kode yang dapat digunakan secara berulang ulang
+- adalah blok atau baris kode yang dapat digunakan secara berulang ulang
 - pembuatanya menggunakan kata kunci func di ikuti nama functionya dan tanda buka plus tanda kurung
+
+# Function Parameter
+- kadang kita membutuhkan data dari luar, atau di sebut parameter
+- bisa lebih dari satu menambahkan parameter
+- parameter tidak wajib
+- parameter wajib mengirim data kalau parameternya ada
+- nama parameter itu unique
+
 
 
