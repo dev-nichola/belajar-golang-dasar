@@ -216,7 +216,13 @@ sama seperti array ada function yang bisa digunakan
 - else if untuk menambhakan kondisi lainya
 
 ## If dengan short statement
-if mendukung pembuatan statement sederahan sebeluman melakukan pengecekan
+if mendukung pembuatan statement sederhanan sebelum melakukan pengecekan
 
+# Switch Statement
+switch statemen merupakan bentuk sederahana dari if, biasanya digunakan untuk pengecekan ke kondisi dalam satu variable
 
+## Switch Tanpa Kondisi
+switch tidak wajib menggunakan kondisi, kita bisa menambahkan kondisi tersebut di setiap casenya
+
+# For Loops / Perulangan
 
