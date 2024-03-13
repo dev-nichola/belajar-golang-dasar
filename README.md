@@ -310,6 +310,7 @@ Atau Kalau Tidak Butuh Indexnya
 # Variadic Function 
 - parameter di function itu yang terakhir itu memiliki kemampuan variable argumen
 - atau datanya bisa memiliki satu input, atau anggap saja seperti array
+- mirip spread operator di javascript
 
 
 
