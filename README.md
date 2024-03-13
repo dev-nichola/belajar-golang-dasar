@@ -317,4 +317,6 @@ Atau Kalau Tidak Butuh Indexnya
 - di golang function itu first class citizen
 - function juga dianggapnya tipe data, bisa disimpan di variable
 
+# Function as Parameter
+- function juga bisa digunakan sebagai parameter
 
