@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func sumAll(numbers ...int) int {
 	total := 0
@@ -16,4 +18,8 @@ func main() {
 	result := sumAll(10, 10, 10, 10)
 
 	fmt.Println(result)
+
+	numbers := []int{10, 10, 10, 10, 100}
+
+	fmt.Println(sumAll(numbers...))
 }

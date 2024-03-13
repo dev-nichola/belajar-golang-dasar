@@ -311,6 +311,10 @@ Atau Kalau Tidak Butuh Indexnya
 - parameter di function itu yang terakhir itu memiliki kemampuan variable argumen
 - atau datanya bisa memiliki satu input, atau anggap saja seperti array
 - mirip spread operator di javascript
+- kita juga bisa menjadikan slice sebagai argumen untuk parameternya
 
+# Function Value
+- di golang function itu first class citizen
+- function juga dianggapnya tipe data, bisa disimpan di variable
 
 
