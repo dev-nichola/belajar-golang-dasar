@@ -334,4 +334,10 @@ Atau Kalau Tidak Butuh Indexnya
 - closure adalah kemampuan sebuah function berinteraksi dengan data-data disekitar dalam scope yang sama
 - <b>Gunakan closure dengan bijak</b>
 
+# Defer, Panic dan Recover
+
+## Defer
+- defer function adalah function yang bisa kita jadwalkan untuk di eksekusi setelah sebuah function selesai di eksekusi
+- defer function akan selalu di eksekusi walau ada error
+
 
