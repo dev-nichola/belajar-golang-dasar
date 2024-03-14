@@ -330,6 +330,8 @@ Atau Kalau Tidak Butuh Indexnya
 - kadang kita lebih mudah menyelesaikan masalah menggunakan factorial di banding dengan perulangan
 - contoh kasusnya adalah factorial
 
-
+# Closure
+- closure adalah kemampuan sebuah function berinteraksi dengan data-data disekitar dalam scope yang sama
+- <b>Gunakan closure dengan bijak</b>
 
 
