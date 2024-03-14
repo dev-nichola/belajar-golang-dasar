@@ -340,4 +340,13 @@ Atau Kalau Tidak Butuh Indexnya
 - defer function adalah function yang bisa kita jadwalkan untuk di eksekusi setelah sebuah function selesai di eksekusi
 - defer function akan selalu di eksekusi walau ada error
 
+## Panic
+- panic digunakan untuk menghentikan program
+- panic biasa dipanggil ketika program berjalan kemudian terjadi panic 
+- saat panic dipanggil otomatis semua 
+
+## Recover
+- recover adalah function yang bisa kita gunakan untuk menangkap data panic
+- dengan recover proses panic akan terhenti, dan program berjalan
+
 
