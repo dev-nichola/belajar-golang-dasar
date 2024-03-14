@@ -319,4 +319,8 @@ Atau Kalau Tidak Butuh Indexnya
 
 # Function as Parameter
 - function juga bisa digunakan sebagai parameter
+- kita juga bisa membuat type sendiri untuk function kita contoh ada di ```function_parameter.go```
+
+# Anonymous Function
+
 
