@@ -335,6 +335,7 @@ Atau Kalau Tidak Butuh Indexnya
 - <b>Gunakan closure dengan bijak</b>
 
 # Defer, Panic dan Recover
+di bahasa pemrograman yang lain kenalnya ```try catch, finnaly``` di go lang kita menggunakan ```defer panic dan recover```
 
 ## Defer
 - defer function adalah function yang bisa kita jadwalkan untuk di eksekusi setelah sebuah function selesai di eksekusi
