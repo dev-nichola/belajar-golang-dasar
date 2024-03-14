@@ -322,5 +322,14 @@ Atau Kalau Tidak Butuh Indexnya
 - kita juga bisa membuat type sendiri untuk function kita contoh ada di ```function_parameter.go```
 
 # Anonymous Function
+- function yang tidak ada identifiernya di sebut anonymous function 
+- contoh penggunaan yang sering adalah penggunaan callback atau parameter di function yang berbentuk function
+
+# Recursive Function
+- adalah function yang bisa memanggil dirinya sendiri
+- kadang kita lebih mudah menyelesaikan masalah menggunakan factorial di banding dengan perulangan
+- contoh kasusnya adalah factorial
+
+
 
 
