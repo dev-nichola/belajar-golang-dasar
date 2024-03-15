@@ -372,3 +372,6 @@ sebenarnya ada banyak cara menggunakan struct contoh ada di ```struct.go```
 - interface itu berisi definisi definisi method
 - biasanya digunakan sebagai kontrak
 
+# Interface Kosong
+- golang itu tidak oop
+
