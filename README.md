@@ -350,4 +350,19 @@ di bahasa pemrograman yang lain kenalnya ```try catch, finnaly``` di go lang kit
 - recover adalah function yang bisa kita gunakan untuk menangkap data panic
 - dengan recover proses panic akan terhenti, dan program berjalan
 
+# Struct
+- template data menggabungkan nol atau banyak tipe data
+- data di struct di simpan disebutnya field atau property
+- singkatnya struct adalah kumpulah dari field
 
+## Membuat Struct
+- struct adalah template data atau prototype data
+- struct tidak bisa langsung di gunakan
+- namun kita bisa membuat data/object yang kita buat 
+
+## Struct Literal
+sebenarnya ada banyak cara menggunakan struct contoh ada di ```struct.go```
+
+# Struch Method
+- struct adalah tipe data, seperti tipe data lainya
+- kita bisa menambahkan function ke dalam structs, sehingga seakan akan struct memiliki function
