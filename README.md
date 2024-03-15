@@ -374,4 +374,12 @@ sebenarnya ada banyak cara menggunakan struct contoh ada di ```struct.go```
 
 # Interface Kosong
 - golang itu tidak oop
+- interface kosong artinya bisa mengirim data apapun
+- jadi tipe data yang paling tinggi posisinya semuanya mengikuti interface kosong atau any
+
+# Nil
+- object yang belum di inisialiasikan itu di sebut null atau nil
+- di golang saat kita membuat variable dengan tipe data tertentu maka otomatis akan dibuatkan tipe data defaultnya
+- nil digunakan oleh beberapa tipe data, seperti interface, function map, slice, pointer dan channel
+
 
