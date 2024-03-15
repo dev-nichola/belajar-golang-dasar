@@ -366,3 +366,9 @@ sebenarnya ada banyak cara menggunakan struct contoh ada di ```struct.go```
 # Struch Method
 - struct adalah tipe data, seperti tipe data lainya
 - kita bisa menambahkan function ke dalam structs, sehingga seakan akan struct memiliki function
+
+# Interface
+- interface adalah tipe data abstract, jadi tidak bisa implementasi langsung
+- interface itu berisi definisi definisi method
+- biasanya digunakan sebagai kontrak
+
