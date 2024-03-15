@@ -391,5 +391,10 @@ sebenarnya ada banyak cara menggunakan struct contoh ada di ```struct.go```
 - jika panic dan tidak te recover maka progam otomatis mati
 - agar aman best practinya menggunakan switch
 
+# Pointer
+- Pointer adalah kemampuan membuat refference ke lokasi data di memory yang sama tanpa menduplikasi data yang sudah ada
+- sederhananya, pointer bisa membuat pass by refference
 
+# Cara Membuatnya
+untuk membuat sebuah variable dengan nilai pointer ke variable yang lain, kita bisa menggunakan operator & di ikuti dengan nama variable nya
 
