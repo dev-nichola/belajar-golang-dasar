@@ -395,6 +395,12 @@ sebenarnya ada banyak cara menggunakan struct contoh ada di ```struct.go```
 - Pointer adalah kemampuan membuat refference ke lokasi data di memory yang sama tanpa menduplikasi data yang sudah ada
 - sederhananya, pointer bisa membuat pass by refference
 
-# Cara Membuatnya
+## Cara Membuatnya
 untuk membuat sebuah variable dengan nilai pointer ke variable yang lain, kita bisa menggunakan operator & di ikuti dengan nama variable nya
+
+# Asterisk Operator Atau Operator Bintang *
+- saat mengubah variable pointer, maka yang berubah adalah variable tsb
+- jika ingin mengubah seluruh data yang mengacu ke data tsb, kita bisa menggunakan operator *
+
+
 
