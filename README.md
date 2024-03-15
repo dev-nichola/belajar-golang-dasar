@@ -382,4 +382,14 @@ sebenarnya ada banyak cara menggunakan struct contoh ada di ```struct.go```
 - di golang saat kita membuat variable dengan tipe data tertentu maka otomatis akan dibuatkan tipe data defaultnya
 - nil digunakan oleh beberapa tipe data, seperti interface, function map, slice, pointer dan channel
 
+# Type Assertion
+- kemampuan merubah tipe data menjadi tipe data yang di inginkan
+- fitur ini sering digunakan saat bertemu dengan interface kosong
+
+## Type Assertion Menggunakan Switch
+- saat salah menggunakan type assertion, maka bisa panic 
+- jika panic dan tidak te recover maka progam otomatis mati
+- agar aman best practinya menggunakan switch
+
+
 
