@@ -402,5 +402,25 @@ untuk membuat sebuah variable dengan nilai pointer ke variable yang lain, kita b
 - saat mengubah variable pointer, maka yang berubah adalah variable tsb
 - jika ingin mengubah seluruh data yang mengacu ke data tsb, kita bisa menggunakan operator *
 
+# Operator New
+- function new digunakan untuk membuat pointer
+- hanya mengembalikan pointer ke data kosong, artinya tidak ada data dari awal
+
+# Pointer di Function
+- secara default saat kita membuat parameter itu pass by value, artinya datanya yang tercopy
+- karena itu jika kita mengubah data, maka data aslinya tidak akan pernah berubah
+- namun kadang kita ingin mengubah data asli parameter tersebut
+
+# Pointer di Method
+- walaupun method itu akan menempel pada struct
+- sebenarnya data struct yang di akses itu pass by value
+- sangat di rekomendasikan menggunakan pointer di method, sehingga tidak boros memory karena selalu di duplikasi ketika memanggil method
+- untuk method sangat di rekomendasikan selalu menggunakan pointer
+
+# Package & Import
+- package tempat mengorganisir kode program
+- package sendiri itu hanya direktori folder
+- secara standart file golang hanya bisa diakses oleh package yang sama, untuk bisa mengakses file golang yang di luar package kita bisa menggunakan import
+
 
 
