@@ -441,6 +441,8 @@ untuk membuat sebuah variable dengan nilai pointer ke variable yang lain, kita b
 - golang memiliki interface yang digunakan sebagai kontrak untuk membuat error, nama interface nya adalah error
 - go lang sudah ada interface error yang siap di gunakan
 
+# Customer Error
+- error itu adalah interface, jadi kita bisa implementasikan sendiri bisa menggunakan struct dll
 
 
 
