@@ -8,4 +8,8 @@ import (
 func main() {
 	result := helper.SayHello("Nichola")
 	fmt.Println(result)
+
+	fmt.Println(helper.Application)
+	fmt.Println(helper.Contoh("Nichola"))
+
 }

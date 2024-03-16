@@ -422,5 +422,26 @@ untuk membuat sebuah variable dengan nilai pointer ke variable yang lain, kita b
 - package sendiri itu hanya direktori folder
 - secara standart file golang hanya bisa diakses oleh package yang sama, untuk bisa mengakses file golang yang di luar package kita bisa menggunakan import
 
+# Access Modifier
+- di bahasa pemrograman lain, ada kata kunci untuk menentukan visibilitas function atau variablenya
+- di go lang cukup menggunakan nama variable atau functionya
+- jika nama diawali huruf besar maka bisa diakses dari package lain
+- jika nama di awali huruf kecil maka tidak bisa di akses oleh package lain
+
+# Package Initialization
+- Saat kita membuat package, kita bisa membuat sebuah function yang akan diakses ketika package kita diakses
+- Ini sangat cocok ketika contohnya, jika package kita berisi function-function untuk berkomunikasi dengan database, kita membuat
+
+# Blank Identifier
+- Kadang kita hanya ingin menjalankan init function di package tanpa harus mengeksekusi salah satu function yang ada di package
+- Secara default, Go-Lang akan komplen ketika ada package yang di import namun tidak digunakan
+- Untuk menangani hal tersebut, kita bisa menggunakan blank identifier (_) sebelum nama package ketika melakukan import
+
+# Error
+- golang memiliki interface yang digunakan sebagai kontrak untuk membuat error, nama interface nya adalah error
+- go lang sudah ada interface error yang siap di gunakan
+
+
+
 
 
